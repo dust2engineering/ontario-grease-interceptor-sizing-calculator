@@ -1,0 +1,19 @@
+{
+  "formula": "Q = SUM over fixtures of (0.75 x V / DDT) + PD \u2014 OBC 7.4.4.3.(7)",
+  "variables": {
+    "Q": "flow rate through the interceptor, L/s",
+    "V": "volume of the fixture, L",
+    "DDT": "drain down time, 60 or 120 seconds",
+    "PD": "any pump discharge, L/s"
+  },
+  "requirements": [
+    "7.4.4.3.(1): except in residential suites, a fixture discharging fats, oils or grease in an area where food is cooked, processed or prepared shall discharge through a grease interceptor.",
+    "7.4.4.3.(6): locate the interceptor as close as possible to the fixture(s) it serves.",
+    "7.4.4.3.(8): all grease and oil interceptors shall have an internal flow control; where head exceeds 5 ft, a secondary flow control is required.",
+    "7.2.3.2.(3)/(4): interceptors conform to CSA B481.0/B481.3 for selection and installation, and are rated to CSA B481.1 (lard) or B481.2 (oil).",
+    "CSA B481.3: a dishwasher served by an interceptor requires a dedicated grease interceptor.",
+    "CSA B481.4: service before FOG and solids exceed 25% of liquid volume, and at least once every 4 weeks."
+  ],
+  "selection": "Choose a manufactured interceptor whose rated flow capacity (to CSA B481.1 or B481.2) is at least the calculated Q. Municipal guides commonly apply a 1-minute drain-down time; a 2-minute period is acceptable where conditions permit.",
+  "source": "OBC 2024 Sentence 7.4.4.3.(7) formula and requirements via ontario.ca 2024 Building Code Compendium Part 7; method cross-checked against Halifax Water and City of Calgary sizing guides, verified 2026-11-15"
+}
